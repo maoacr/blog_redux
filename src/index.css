@@ -1,9 +1,6 @@
-body{
-	margin: 0px;
-}
-
-.margen {
+#margen {
 	margin: 100px;
+	margin-top: 50px;
 }
 
 .tabla {
@@ -15,6 +12,7 @@ body{
 	padding-top: 10px;
 	padding-bottom: 10px;
 }
+
 #menu {
 	background-color: #253A46;
 	padding: 20px;
@@ -23,6 +21,9 @@ body{
 
 #menu a {
 	color: white;
-	padding-left: 0px;
 	padding-right: 50px;
+}
+
+body {
+	margin: 0;
 }
