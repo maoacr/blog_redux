@@ -9,7 +9,7 @@ import * as usuariosActions from '../../actions/usuariosActions';
 class Usuarios extends Component {
 
 	componentDidMount() {
-		if(!this.props.usuarios.length) {
+		if (!this.props.usuarios.length) {
 			this.props.traerTodos();
 		}
 	}
@@ -23,7 +23,7 @@ class Usuarios extends Component {
 			return <Fatal mensaje={ this.props.error } />;
 		}
 
-		return <Tabla usuarios={this.props.usuarios} />
+		return <Tabla />
 	};
 
 	render() {
