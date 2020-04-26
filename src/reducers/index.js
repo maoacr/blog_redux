@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
 import usuariosReducer from './usuariosReducer';
-import tareasReducer from './tareasReducer';
 import publicacionesReducer from './publicacionesReducer';
+import tareasReducer from './tareasReducer';
 
 export default combineReducers({
 	usuariosReducer,
